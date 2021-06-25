@@ -12,3 +12,24 @@ If the user types input describing a formula, the program recognize that input a
 If text entries or other displayed content go beyond the given display size, the display should be truncated.
 
 Formulas are of the form =AVERAGE(A2,A5). The accepted formulas are SUM, RANGE, and AVERAGE.
+
+# Platform
+
+This program was built on Ubuntu 20.04, some errors will be encoutered if an attempt is made to run this program on a Windows Machine as some of the libraries
+are only native to Linux.
+
+# To run the server
+
+Navigate to the project folder and type the following commands:
+
+gcc -o server server.c
+
+./server
+
+# To run the client
+
+Navigate to the project folder and type the following commands:
+
+gcc -o client client.c
+
+./client
